@@ -16,7 +16,7 @@ namespace authorization
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new authorization());
+            Application.Run(new Sign_IN_OUT());
         }
     }
 }
