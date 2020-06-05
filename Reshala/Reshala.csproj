@@ -67,6 +67,13 @@
     <Compile Include="Gaus.Designer.cs">
       <DependentUpon>Gaus.cs</DependentUpon>
     </Compile>
+    <Compile Include="Zaidel20.cs" />
+    <Compile Include="ZaidelV20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZaidelV20.Designer.cs">
+      <DependentUpon>ZaidelV20.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sign_IN_OUT.cs">
@@ -81,6 +88,12 @@
     <Compile Include="Switcher.Designer.cs">
       <DependentUpon>Switcher.cs</DependentUpon>
     </Compile>
+    <Compile Include="SwitcherV20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SwitcherV20.Designer.cs">
+      <DependentUpon>SwitcherV20.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zaidel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +102,9 @@
     </Compile>
     <EmbeddedResource Include="Gaus.resx">
       <DependentUpon>Gaus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZaidelV20.resx">
+      <DependentUpon>ZaidelV20.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -104,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Switcher.resx">
       <DependentUpon>Switcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SwitcherV20.resx">
+      <DependentUpon>SwitcherV20.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Zaidel.resx">
       <DependentUpon>Zaidel.cs</DependentUpon>

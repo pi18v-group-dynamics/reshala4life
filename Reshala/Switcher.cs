@@ -13,6 +13,7 @@ namespace Reshala
 {
     public partial class Switcher : Form
     {
+       
         Gaus gaus = new Gaus();
         Zaidel zaidel = new Zaidel();
         public Switcher()
@@ -31,7 +32,9 @@ namespace Reshala
 
         private void tabPage_Gaus_Enter(object sender, EventArgs e)
         {
-            AddNewTab(this.tabPage1, gaus);
+
+          
+            // AddNewTab(this.tabPage1, gause);
         }
         private void tabPage_Zaidel_Enter(object sender, EventArgs e)
         {

@@ -62,7 +62,7 @@ namespace authorization
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Krouri\Downloads\reshala4life-master\Reshala\UserBase.mdf;Integrated Security=True");
+            sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\PISOS\source\repos\Reshala\Reshala\userbase.mdf;Integrated Security=True");
             sqlConnection.Open();
         }
 
@@ -93,7 +93,6 @@ namespace authorization
 
                     MessageBox.Show("Регистрация прошла успешно", "УСПЕШНО", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    //Сюды тоже можно пихнуть код на некст форму
                 }
                 else
                 {
