@@ -40,3 +40,16 @@ C:\Users\PISOS\Desktop\reshala4life-master\Reshala\obj\Debug\Reshala.exe
 C:\Users\PISOS\Desktop\reshala4life-master\Reshala\obj\Debug\Reshala.pdb
 C:\Users\PISOS\Desktop\reshala4life-master\Reshala\obj\Debug\Reshala.SwitcherV20.resources
 C:\Users\PISOS\Desktop\reshala4life-master\Reshala\obj\Debug\ZaidelV20.ZaidelV20.resources
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\bin\Debug\UserBase.mdf
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\bin\Debug\UserBase_log.ldf
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\bin\Debug\Reshala.exe.config
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\bin\Debug\Reshala.exe
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\bin\Debug\Reshala.pdb
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\obj\Debug\Reshala.csprojAssemblyReference.cache
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\obj\Debug\Reshala.Properties.Resources.resources
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\obj\Debug\authorization.Sign_IN_OUT.resources
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\obj\Debug\Reshala.csproj.GenerateResource.cache
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\obj\Debug\Reshala.csproj.CoreCompileInputs.cache
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\obj\Debug\Reshala.exe
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\obj\Debug\Reshala.pdb
+C:\Users\Krouri\Downloads\reshala4life-master (1)\reshala4life-master\Reshala\obj\Debug\authorization.ZaidelV20.resources

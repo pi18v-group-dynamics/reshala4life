@@ -1,19 +1,22 @@
 ﻿using System;
 using System.Collections;
 using System.Data;
+using System.Windows.Forms;
 
-namespace ZaidelV20
+namespace authorization
 {
     public class GaussSolutionNotFound : Exception
     {
         public GaussSolutionNotFound(string msg)
-            : base("Решение не может быть найдено: \r\n" + msg)
+            : base(msg)
         {
         }
     }
 
     public class LinearSystem
     {
+        Sign_IN_OUT sign = (Sign_IN_OUT)Application.OpenForms["Sign_IN_OUT"];
+        ZaidelV20 zaidel = (ZaidelV20)Application.OpenForms["ZaidelV20"];
         private double[,] initial_a_matrix;
         private double[,] a_matrix;  // матрица A
         private double[] x_vector;   // вектор неизвестных x
@@ -22,7 +25,6 @@ namespace ZaidelV20
         private double[] u_vector;   // вектор невязки U
         private double eps;          // порядок точности для сравнения вещественных чисел 
         private int size;            // размерность задачи
-
 
         public LinearSystem(double[,] a_matrix, double[] b_vector)
             : this(a_matrix, b_vector, 0.0001)
@@ -97,9 +99,9 @@ namespace ZaidelV20
             if (max_abs < eps)
             {
                 if (Math.Abs(b_vector[row]) > eps)
-                    throw new GaussSolutionNotFound("Система уравнений несовместна.");
+                    throw new GaussSolutionNotFound(zaidel.isStartLocal ? sign.Rus[28] : sign.Eng[28]);
                 else
-                    throw new GaussSolutionNotFound("Система уравнений имеет множество решений.");
+                    throw new GaussSolutionNotFound(zaidel.isStartLocal ? sign.Rus[29] : sign.Eng[29]);
             }
 
             // меняем местами индексы столбцов

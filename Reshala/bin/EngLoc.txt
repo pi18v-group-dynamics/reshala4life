@@ -1,0 +1,30 @@
+﻿Русская локаль
+Authorization
+Reshala
+Registration
+Login
+Password
+Enter
+Exit
+!!!ATTENTION!!!
+Not all fields are filled!
+This login is busy! Enter another login and click on 'Registration'. 
+SUCCESSFULLY
+Registration completed successfully
+Wrong login or password!
+Authorization passed
+Solution by Zaidel(Gauss-Zaidel) method
+Solve SLAE
+Autofill
+=
+Inaccuracy
+Matrix dimension
+Matrix
+The time spent on the solution SLAE by Zaidel(Gauss-Zaidel) method: 
+Elapsed time
+Example №1
+Example №2
+Example №3
+Example №4
+Solution can't be found: Is incorrect SLAE
+Solution can't be found: SLAE has many solutions
